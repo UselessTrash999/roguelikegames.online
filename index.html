@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Roguelike Games Online - Play Free Browser Roguelike & Survivor Games</title>
+    <meta name="description" content="The ultimate hub for free-to-play online roguelike and survivor games. Play legendary titles like Vampire: No Survivors directly in your browser.">
+    <link rel="canonical" href="https://roguelikegames.online/">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'vampire-dark': '#1a0e2a',
+                        'vampire-blood': '#dc2626',
+                        'vampire-light': '#f5f3ff',
+                        'vampire-purple': '#a78bfa',
+                    },
+                    fontFamily: { 'pixel': ['"Press Start 2P"', 'cursive'], 'mono': ['"Source Code Pro"', 'monospace'] }
+                }
+            }
+        }
+    </script>
+    <style type="text/css"> .font-pixel { text-rendering: optimizeLegibility; image-rendering: pixelated; } </style>
+</head>
+
+<body class="bg-vampire-dark font-mono text-vampire-light antialiased flex flex-col min-h-screen">
+
+    <header class="bg-vampire-dark/80 backdrop-blur-sm sticky top-0 z-50 border-b border-vampire-purple/20">
+        <nav class="container mx-auto max-w-5xl p-4 flex justify-between items-center">
+            <a href="/" class="font-pixel text-xl text-white hover:text-vampire-purple transition-colors">
+                RoguelikeGames.online
+            </a>
+            <div class="space-x-4">
+                <a href="/" class="text-lg text-white font-bold border-b-2 border-vampire-purple pb-1">Home</a>
+                </div>
+        </nav>
+    </header>
+
+    <main class="flex-grow">
+        <div class="container mx-auto max-w-5xl p-4 md:p-8">
+            <section class="text-center my-12">
+                <h1 class="font-pixel text-3xl md:text-5xl text-vampire-purple drop-shadow-[0_2px_2px_rgba(220,38,38,0.8)] mb-4">
+                    Online Roguelike Arcade
+                </h1>
+                <p class="text-lg md:text-xl text-vampire-light/90">
+                    Your portal to the best free-to-play roguelike & survivor games in your browser.
+                </p>
+            </section>
+            
+            <section>
+                <h2 class="font-pixel text-2xl text-vampire-purple mb-6">Featured Games</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                    <a href="./games/vampire-no-survivors.html" class="group block bg-vampire-dark/50 p-6 rounded-lg border-2 border-vampire-purple/30 hover:border-vampire-blood hover:scale-105 transition-all duration-300">
+                        <h3 class="font-pixel text-xl text-white group-hover:text-vampire-blood transition-colors mb-2">
+                            Vampire: No Survivors
+                        </h3>
+                        <p class="text-vampire-light/70 mb-4">
+                            A thrilling roguelike survival game where you unleash dark powers against relentless heroes.
+                        </p>
+                        <span class="font-bold text-vampire-purple group-hover:text-white transition-colors">Play Now &rarr;</span>
+                    </a>
+
+                    </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="text-center p-6 mt-12 border-t border-vampire-purple/20">
+        <p class="text-sm text-vampire-light/60">
+            &copy; 2025 roguelikegames.online - All Rights Reserved. All game content is the property of its respective owners.
+        </p>
+    </footer>
+
+</body>
+</html>
