@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Play Vampire: No Survivors Online - Free Roguelike Game</title>
+    <meta name="description" content="Survive the relentless onslaught of heroes in Vampire: No Survivors! Play this thrilling free-to-play roguelike survival game directly in your browser.">
+    <link rel="canonical" href="https://roguelikegames.online/games/vampire-no-survivors.html">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'vampire-dark': '#1a0e2a',
+                        'vampire-blood': '#dc2626',
+                        'vampire-light': '#f5f3ff',
+                        'vampire-purple': '#a78bfa',
+                    },
+                    fontFamily: { 'pixel': ['"Press Start 2P"', 'cursive'], 'mono': ['"Source Code Pro"', 'monospace'] }
+                }
+            }
+        }
+    </script>
+    <style type="text/css"> .font-pixel { text-rendering: optimizeLegibility; image-rendering: pixelated; } </style>
+</head>
+
+<body class="bg-vampire-dark font-mono text-vampire-light antialiased flex flex-col min-h-screen">
+
+    <header class="bg-vampire-dark/80 backdrop-blur-sm sticky top-0 z-50 border-b border-vampire-purple/20">
+        <nav class="container mx-auto max-w-5xl p-4 flex justify-between items-center">
+            <a href="/" class="font-pixel text-xl text-white hover:text-vampire-purple transition-colors">
+                RoguelikeGames.online
+            </a>
+            <div class="space-x-4">
+                <a href="/" class="text-lg text-gray-400 hover:text-white transition-colors">Home</a>
+                </div>
+        </nav>
+    </header>
+
+    <main class="flex-grow container mx-auto max-w-4xl p-4 md:p-8">
+
+        <header class="text-center mb-8">
+            <h1 class="font-pixel text-3xl md:text-5xl text-vampire-purple drop-shadow-[0_2px_2px_rgba(220,38,38,0.8)] mb-4">
+                Vampire: No Survivors
+            </h1>
+            <p class="text-lg md:text-xl text-vampire-light/90">
+                Unleash dark powers and survive the relentless onslaught of heroes in this thrilling, free-to-play roguelike!
+            </p>
+        </header>
+
+        <section class="mb-10 shadow-lg border-4 border-vampire-blood rounded-lg overflow-hidden">
+            <div class="w-full" style="aspect-ratio: 16 / 9;">
+                <iframe src="https://html-classic.itch.zone/html/8362426/index.html?v=1732313633" frameborder="0" allowfullscreen="" class="w-full h-full" title="Vampire: No Survivors Online Game"></iframe>
+            </div>
+        </section>
+
+        <article class="bg-vampire-dark/50 p-6 rounded-lg border-2 border-vampire-purple/30">
+            <h2 class="font-pixel text-2xl text-vampire-purple mb-4">About The Game</h2>
+            <p class="mb-6 leading-relaxed">The age of heroes is upon the land, and they hunt you—the last of the great vampires. But you are not prey. You are a predator. Summon unholy minions, master forbidden magic, and build an unstoppable horde.</p>
+            <h2 class="font-pixel text-2xl text-vampire-purple mb-4">How to Play</h2>
+            <p class="mb-6 leading-relaxed">Use your <strong class="text-vampire-blood font-bold">mouse or WASD keys</strong> to navigate. Your character attacks automatically. Collect experience gems to level up and choose powerful new abilities to forge your ultimate build.</p>
+            <h2 class="font-pixel text-2xl text-vampire-purple mb-4">Tips & Tricks to Survive</h2>
+            <ul class="list-disc list-inside space-y-3 leading-relaxed">
+                <li><strong class="text-white">Early Game AOE:</strong> Focus on area-of-effect (AOE) spells early on.</li>
+                <li><strong class="text-white">Keep Moving:</strong> Constant movement is key to avoiding enemy swarms.</li>
+                <li><strong class="text-white">Prioritize Experience:</strong> Safely weave through enemies to grab experience gems.</li>
+                <li><strong class="text-white">Synergize Upgrades:</strong> Pay attention to ability synergies for maximum effect.</li>
+            </ul>
+        </article>
+
+    </main>
+    
+    <footer class="text-center p-6 mt-12 border-t border-vampire-purple/20">
+        <p class="text-sm text-vampire-light/60">
+            &copy; 2025 roguelikegames.online - All Rights Reserved. All game content is the property of its respective owners.
+        </p>
+    </footer>
+
+</body>
+</html>
